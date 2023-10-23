@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background: #5fe736;
+    background: -webkit-linear-gradient(left, hsl(96, 71%, 57%), #52f112);
+    background: linear-gradient(to right, #61d13f, #1db32a);
+    height: 80px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.header-menu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   
+    
+}
+
+.image{
+    padding-left: 10px;
+    width: 100px;
+}
+
+.students {
+    justify-content: center;
+    padding: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(192, 192, 192);
+    border-image: initial;
+}
+
+.dados-pessoais {
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.foto-perfil {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.resume {
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+legend {
+    font-size: 25px;
+}
+
+input,
+label {
+    width: 100%;
+    display: flex;
+    height: 1.5rem;
+    border-radius: 5px solid rgb(199, 190, 190);
+    
+}
+
+.row {
+    padding: 10px;
+
+}
+
+.dob {
+    padding: 10px;
+    height: 1.5rem;
+    margin-bottom: 10px;
+
+
+}
+
+.nacionalidade {
+    padding: 10px;
+
+}
+
+.visto {
+    padding: 10px;
+    margin-top: 13px;
+}
+
+select {
+    height: 2rem;
+    
+
+}
+input,textarea{
+    width: 90%;
+    border: 1px solid rgb(190, 180, 180);
+}
+.image-curriclo{
+    margin: 0;
+}
