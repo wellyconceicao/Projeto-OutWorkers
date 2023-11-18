@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+main.headerAboutUs {
+    background: aliceblue;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.loginbuttons {
+
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+main.login button {
+    background-color: rgb(28, 226, 28);
+   
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    border: 1px solid white;
+
+}
+
+main.login button:hover {
+    transform: scale(1.1);
+    color: aliceblue;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+    color: rgb(29, 202, 29);
+}
+
+.pricing {
+    background:aliceblue ;
+    text-align: center;
+}
+.pricing p{
+    max-width: 350px;
+}
+.pricing h1{
+    color: green;
+}
+
+.container {
+    background: aliceblue;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #434343;
+}
+
+main.cards {
+    display: flex;
+    padding: 32px;
+}
+
+main.cards section.card{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 600px;
+    margin-left: 5px;
+    box-shadow: 15px 15px 40px -30px black;
+
+}
+
+main.cards section.card:first-child {
+    margin: 0;
+}
+
+main.cards section.card.icon {
+    width: 100%;
+
+}
+
+main.cards section.card img {
+    width: 200px;
+    height: 150px;
+}
+
+main.cards section.card button {
+    padding: 0.5rem 1rem;
+
+    border-radius: 32px;
+    border: 1px solid;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: white;
+
+}
+
+main.cards section.card.pro button {
+    background: green;
+
+}
+
+main.cards section.card p {
+    max-width: 200px;
+    
+}
+
+main.cards section.card.basic button {
+    color: black;
+    font-weight: 500;
+    border: 1px solid;
+    
+
+}
+
+main.cards section.card:hover {
+    transform: scale(1.1);
+}
+.compared{
+    margin-top: 30px;
+}
+.rodape{
+    margin-top: 50px;
+    text-align: left;
+}
+.rodape .pro{
+   
+}
