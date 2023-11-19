@@ -51,6 +51,11 @@ a {
 a:hover {
     color: rgb(29, 202, 29);
 }
+#button-sign:hover{
+    transform: scale(1.1);
+    color: aliceblue;
+
+}
 
 .pricing {
     background:aliceblue ;
