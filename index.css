@@ -47,7 +47,7 @@ a{
     color: black;
 
 }
-a:hover{
+ a:hover{
     color: rgb(29, 202, 29);
 }
 .section{
@@ -100,4 +100,8 @@ img{
 }
 #link-student:hover{
     color: aliceblue;
+}
+
+#linkhowit:hover{
+    color: rgb(250, 249, 249);
 }

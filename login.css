@@ -1,0 +1,132 @@
+body{
+    margin-bottom: 100px;
+    margin-top: 20px;
+    background-color: aliceblue;
+    font-family:sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    
+}
+.loginbuttons{
+    
+    width: 15%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+button{
+    background-color: rgb(74, 219, 69);
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid white;
+    
+}
+button:hover{
+    transform: scale(1.1);
+    color: aliceblue;
+    
+}
+#button-sign:hover{
+    transform: scale(1.1);
+    color: aliceblue;
+
+}
+.tituloAboutUs{
+    text-align: center;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    color: green;
+}
+
+.container{
+    background:rgb(25, 138, 50) ;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 140px;
+    
+}
+.caixalogin{
+    background: rgb(252, 252, 250);
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    
+    height: 400px;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+.senha{
+   
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    padding-top: 10px;
+    
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+label{
+    text-align: left;
+    width: 100%;
+   
+    height: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    
+}
+input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.botoes{
+    margin-top: 30px;
+    
+    
+}
+#botaologin{
+    display: block;
+    font-size: 20px;
+    
+
+}
+.newregister{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+.newregister a{
+    text-decoration:underline;
+}

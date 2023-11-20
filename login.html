@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <link rel="shortcut icon" href="icon/outWorkers-Logo.ico.ico" type="image/x-icon">
-    <title>Are you a...</title>
-    <link rel="stylesheet" href="areyou.css">
+    <title>About Us</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 
 <body>
@@ -38,29 +38,27 @@
         </div>
     </header>
     <div class="container">
-        <div class="header-register">
-            <h1>Register</h1>
-            <p>Are you an Employer or a Student?</p>
-        </div>
-        <div class="opcoes">
-            <a href="registerStudent.html" id="Studentlink">
-            <div class="opcaoStudent">
-                <img src="img/chapeu-estudante.png" alt="chapeu estudante">
-                <h3>I'm a Student</h3>
-                <p>Looking for a job</p>
-            
+        <div class="caixalogin">
+            <h1>Login</h1>
+            <div class="email">
+                <label for="caixaemail">Email</label>
+                <input type="email" placeholder="Email" required name="caixaemail">
             </div>
-        </a>
-            <a href="registerEmployer.html">
-            <div class="opcaoEmployer">
-                <img src="img/empreds-img.png" alt="icon empresa">
-                <h3>I'm an Employer</h3>
-                <p>Looking to Recruit staff</p>
-           
+            <div class="senha">
+                <label for="caixasenha">Password</label>
+                <input type="password" placeholder="Your password" required name="caixasenha">
             </div>
-        </a>
+            <div class="botoes">
+                
+                <button id="botaologin"><b>Login</b></button>
+            </div>
+            <div class="newregister">
+                <p>Don't have a registration? <a href="areyou.html"><b>Start here</b></a></p>
+                
+            </div>
         </div>
     </div>
+
 </body>
 
 </html>
